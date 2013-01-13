@@ -2,7 +2,7 @@
 <resources>
 
     <string-array name="background_limit">
-        <item>Standard limit</item>
+        <item>Standard limit (default)</item>
         <item>No background processes</item>
         <item>At most, 1 process</item>
         <item>At most, 2 processes</item>
