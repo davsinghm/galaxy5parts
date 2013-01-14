@@ -2,15 +2,15 @@
 <resources>
 
     <string-array name="background_limit">
-        <item>Standard limit (default)</item>
-        <item>No background processes</item>
-        <item>At most, 1 process</item>
-        <item>At most, 2 processes</item>
-        <item>At most, 3 processes</item>
-        <item>At most, 4 processes</item>
+        <item>Limite padrão</item>
+        <item>Sem processos em segundo plano</item>
+        <item>No máximo um processo</item>
+        <item>No máximo dois processos</item>
+        <item>No máximo três processos</item>
+        <item>No máximo quatro processos</item>
     </string-array>
     <string-array name="attenuation">
-        <item>0 dB (disabled)</item>
+        <item>0 dB (desabilitado)</item>
         <item>1 dB</item>
         <item>2 dB</item>
         <item>3 dB</item>
@@ -22,7 +22,7 @@
         <item>9 dB</item>
     </string-array>
     <string-array name="cache_size">
-        <item>128KB (default)</item>
+        <item>128KB (padrão)</item>
         <item>256KB</item>
         <item>512KB</item>
         <item>1MB</item>

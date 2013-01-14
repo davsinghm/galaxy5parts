@@ -28,7 +28,7 @@ final class BackProcessLimit implements Preference.OnPreferenceClickListener {
 			mSelected = Integer.parseInt(SystemProperties
 					.get(Constants.PROP_PROCESSLIMIT));
 		} catch (NumberFormatException e) {
-			mSelected = 0;
+			mSelected = -1;
 		}
 
 		AlertDialog.Builder dialog = new AlertDialog.Builder(mContext);
