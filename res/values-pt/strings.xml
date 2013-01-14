@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Galaxy5 Parts</string>
-    <string name="version">1.00</string>
+    <!-- string name="app_name">Galaxy5 Parts</string -->
+    <!-- string name="version">1.00</string -->
     <string name="device_settings">Configurações do GT-I5500</string>
     <string name="attn_fm">Atenuação da rádio FM</string>
     <string name="attn_headset">Atenuação dos fones de ouvido</string>
@@ -37,7 +37,7 @@
     <string name="bug_report_root_req">Não é permitido criar log. Por favor, habilite accesso root para Aplicativos e ADB em Configurações-> Opções do desenvolvedor</string>
     <string name="bug_report_success">Relatório de bug gerado para</string>
     <string name="sd_not_mounted">Cartão SD não montado</string>
-    <string name="generating_bug_report">Gerar relatório de bug &#8230;</string>
+    <string name="generating_bug_report">Gerar relatório de bug&#8230;</string>
     <string name="bug_report_failed">Falha na geração do relatório de bug. Ocorreu um erro.</string>
 
 </resources>

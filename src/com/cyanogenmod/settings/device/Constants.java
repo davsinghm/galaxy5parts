@@ -19,21 +19,21 @@ public class Constants {
 
 	public static CharSequence[] getAttn(Resources resources) {
 
-		CharSequence[] attn = resources.getStringArray(R.array.attenuation);;
+		CharSequence[] attn = resources.getStringArray(R.array.attenuation);
 
 		return attn;
 	}
 
 	public static CharSequence[] getCacheSize(Resources resources) {
 
-		CharSequence[] cacheSize = resources.getStringArray(R.array.cache_size);;
+		CharSequence[] cacheSize = resources.getStringArray(R.array.cache_size);
 		
 		return cacheSize;
 	}
 
 	public static CharSequence[] getProcessLimit(Resources resources) {
 
-		CharSequence[] processLimit = resources.getStringArray(R.array.background_limit);;
+		CharSequence[] processLimit = resources.getStringArray(R.array.background_limit);
 
 		return processLimit;
 	}

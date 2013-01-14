@@ -25,11 +25,11 @@
     <string name="swap">Swap</string>
     <string name="swap_dis">Swap cannot be used while zRam is enabled</string>
     <string name="swap_en">Use SD card swap partition as virtual memory, allowing more applications to remain open</string>
-    <string name="audio_attenuation">Audio Attenuation</string>
+    <!-- string name="audio_attenuation">Audio Attenuation</string -->
     <string name="attenuation">Attenuation</string>
-    <string name="fm_radio">FM radio (headset/speaker)</string>
-    <string name="headset">Headset</string>
-    <string name="speaker">Speaker</string>
+    <string name="fm_radio">FM radio</string>
+    <!-- string name="headset">Headset</string -->
+    <!-- string name="speaker">Speaker</string -->
     <string name="report_bug">Report bug</string>
     <string name="bug_report_gen">Generate bug report</string>
     <string name="bug_report_info">Dumps system logs to SD card for bug reporting purposes</string>
@@ -39,5 +39,7 @@
     <string name="sd_not_mounted">SD card is not mounted</string>
     <string name="generating_bug_report">Generating bug report&#8230;</string>
     <string name="bug_report_failed">Failed to generate bug report. An error occurred.</string>
-
+    <string name="global">global</string>
+    <string name="attn_headset_speaker">Headset &amp; Speaker</string>
+    
 </resources>
