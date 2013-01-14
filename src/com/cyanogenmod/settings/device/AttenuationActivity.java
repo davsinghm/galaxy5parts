@@ -65,7 +65,11 @@ public class AttenuationActivity extends PreferenceActivity {
 	private void headerSwitch(final View view) {
 
 		Switch s = (Switch) view.findViewById(R.id.header_switch);
-		s.setChecked(isAttenuationOn());
+		if (DeviceSettings.mPrefAttenuation != null) {
+			s.setChecked(DeviceSettings.mPrefAttenuation.isChecked());
+		} else {
+			s.setChecked(isAttenuationOn());
+		}
 		s.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
 			@Override
@@ -151,9 +155,12 @@ public class AttenuationActivity extends PreferenceActivity {
 		super.onCreate(savedInstanceState);
 
 		getActionBar().setDisplayHomeAsUpEnabled(true);
-
-		loadScreen(isAttenuationOn());
-
+		
+		if (DeviceSettings.mPrefAttenuation != null) {
+			loadScreen(DeviceSettings.mPrefAttenuation.isChecked());
+		} else {
+			loadScreen(isAttenuationOn());
+		}
 	}
 
 }
