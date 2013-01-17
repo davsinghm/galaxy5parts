@@ -34,7 +34,7 @@
     <string name="bug_report_success">Bug report generated to</string>
     <string name="sd_not_mounted">SD card is not mounted</string>
     <string name="generating_bug_report">Generating bug report&#8230;</string>
-    <string name="bug_report_failed">Failed to generate bug report. An error occurred.</string>
+    <string name="bug_report_failed">Failed to generate bug report. An error occurred</string>
     <string name="global">Global</string>
     <string name="attn_headset_speaker">Headset &amp; Speaker</string>
     
