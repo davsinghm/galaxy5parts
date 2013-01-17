@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">Galaxy5 Parts</string>
-    <string name="version">1.00</string>
     <string name="device_settings">GT-I5500 device settings</string>
     <string name="attn_fm">FM radio attenuation</string>
     <string name="attn_headset">Headset attenuation</string>
@@ -25,11 +24,8 @@
     <string name="swap">Swap</string>
     <string name="swap_dis">Swap cannot be used while zRam is enabled</string>
     <string name="swap_en">Use SD card swap partition as virtual memory, allowing more applications to remain open</string>
-    <!-- string name="audio_attenuation">Audio Attenuation</string -->
     <string name="attenuation">Attenuation</string>
     <string name="fm_radio">FM radio</string>
-    <!-- string name="headset">Headset</string -->
-    <!-- string name="speaker">Speaker</string -->
     <string name="report_bug">Report bug</string>
     <string name="bug_report_gen">Generate bug report</string>
     <string name="bug_report_info">Dumps system logs to SD card for bug reporting purposes</string>
