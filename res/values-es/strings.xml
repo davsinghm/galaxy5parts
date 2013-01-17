@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Galaxy5 Parts</string>
+    <string name="device_settings">Configuración de GT-I5500</string>
+    <string name="attn_fm">FM radio attenuation</string>
+    <string name="attn_headset">Headset attenuation</string>
+    <string name="attn_speaker">Speaker attenuation</string>
+    <string name="audio_settings_cat">Configuración de audio</string>
+    <string name="back_process_limit">Tope de procesos de fondo</string>
+    <string name="cache_size">SD card read-ahead buffer</string>
+    <string name="cancel">Cancelar</string>
+    <string name="continew">Continuar</string>
+    <string name="current_setting">Configuración actual</string>
+    <string name="disabled">deshabilitado</string>
+    <string name="extamp_filter">Extamp filter</string>
+    <string name="extamp_filter_sum">Usar filtro Samsung de amplificación externa de audio</string>
+    <string name="fake_dt">Fake dual-touch</string>
+    <string name="fake_dt_sum">Hacer un gesto circular para activar fake dual-touch y pinch-to-zoom (requiere reiniciar)</string>
+    <string name="lmk">LMK dinámico</string>
+    <string name="lmk_sum">Ajusta dinámicamente el lowmemorykiller kernel driver basado en la actividad de swap o zRam</string>
+    <string name="memory_man">Administración de memoria</string>
+    <string name="intrfc">Interfaz</string>
+    <string name="swap">Swap</string>
+    <string name="swap_dis">Swap no puede ser usado mientras zRam esté activado</string>
+    <string name="swap_en">Usa la partición swap de SD card como memoria virtual, permitiendo tener más aplicaciones abiertas simultáneamente</string>
+    <string name="attenuation">Attenuation</string>
+    <string name="fm_radio">Radio FM</string>
+    <string name="report_bug">Reporte de bug</string>
+    <string name="bug_report_gen">Generar reporte de bug</string>
+    <string name="bug_report_info">Volcar logs de sistema a SD card para informe de bugs</string>
+    <string name="bug_report_dialog">Esto volcará logs de sistema a la SD card para informe de bugs. Este proceso requiere permisos de Superuser y puede tomar un tiempo.</string>
+    <string name="bug_report_root_req">No se pudo capturar el log. Por favor active acceso administrativo para aplicaciones y ADB en Configuración -> Opciones del desarrolador</string>
+    <string name="bug_report_success">Reporte de Bug generado en</string>
+    <string name="sd_not_mounted">La SD card no está montada</string>
+    <string name="generating_bug_report">Generando reporte de bug&#8230;</string>
+    <string name="bug_report_failed">El reporte de bug no se generó. Hubo un error.</string>
+    <string name="global">Global</string>
+    <string name="attn_headset_speaker">Headset &amp; Speaker</string>
+    
+</resources>
