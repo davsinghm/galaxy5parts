@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="background_limit">
-        <item>Standard limit (default)</item>
-        <item>No background processes</item>
-        <item>At most, 1 process</item>
-        <item>At most, 2 processes</item>
-        <item>At most, 3 processes</item>
-        <item>At most, 4 processes</item>
-    </string-array>
     <string-array name="attenuation">
         <item>0 dB (disabled)</item>
         <item>1 dB</item>
@@ -20,6 +12,14 @@
         <item>7 dB</item>
         <item>8 dB</item>
         <item>9 dB</item>
+    </string-array>
+    <string-array name="background_limit">
+        <item>Standard limit (default)</item>
+        <item>No background processes</item>
+        <item>At most, 1 process</item>
+        <item>At most, 2 processes</item>
+        <item>At most, 3 processes</item>
+        <item>At most, 4 processes</item>
     </string-array>
     <string-array name="cache_size">
         <item>128KB (default)</item>
