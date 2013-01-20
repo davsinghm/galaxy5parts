@@ -30,7 +30,7 @@
     <string name="global">全球</string>
     <string name="intrfc">界面</string>
     <string name="lmk">动态低内存终止</string>
-    <string name="lmk_sum">激活 Swap 或 zRam 来使用动态低内存终止</string>
+    <string name="lmk_sum">激活 swap 或 zRam 来使用动态低内存终止</string>
     <string name="memory_man">内存管理</string>
     <string name="report_bug">问题反馈</string>
     <string name="sd_not_mounted">内存卡未挂载</string>
