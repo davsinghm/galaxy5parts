@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.RemoteException;
 import android.os.SystemProperties;
+import android.util.Log;
 
 public class Galaxy5PartsStartup extends BroadcastReceiver {
 
@@ -22,6 +23,7 @@ public class Galaxy5PartsStartup extends BroadcastReceiver {
 		try {
 			ActivityManagerNative.getDefault().setProcessLimit(processLimit);
 		} catch (RemoteException e) {
+			Log.e("Galaxy5Parts", e.toString());
 		}
 
 		System.exit(0);

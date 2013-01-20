@@ -1,10 +1,12 @@
 package com.cyanogenmod.settings.device;
 
 import android.app.ActionBar;
+import android.app.ActivityManagerNative;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.RemoteException;
 import android.os.SystemProperties;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
@@ -93,10 +95,10 @@ public class DeviceSettings extends PreferenceActivity {
 		bgProcessLimit.setTitle(getText(R.string.back_process_limit));
 		int currentBgProcLimit;
 		try {
-			currentBgProcLimit = Integer.parseInt(SystemProperties.get(Constants.PROP_PROCESSLIMIT)) + 1;
-        } catch(NumberFormatException e) {
-        	currentBgProcLimit = 0;
-        }
+			currentBgProcLimit = ActivityManagerNative.getDefault().getProcessLimit() + 1;
+		} catch (RemoteException e) {
+			currentBgProcLimit = 0;
+		}
 		bgProcessLimit.setSummary(Constants.getProcessLimit(resources)[currentBgProcLimit]);
 		bgProcessLimit.setEnabled(true);
 		bgProcessLimit.setOnPreferenceClickListener(new BackProcessLimit(this, resources));

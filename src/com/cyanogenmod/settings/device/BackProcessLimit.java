@@ -9,6 +9,9 @@ import android.content.res.Resources;
 import android.os.RemoteException;
 import android.os.SystemProperties;
 import android.preference.Preference;
+import android.util.Log;
+import android.widget.Toast;
+
 import com.cyanogenmod.settings.device.R;
 
 final class BackProcessLimit implements Preference.OnPreferenceClickListener {
@@ -23,11 +26,10 @@ final class BackProcessLimit implements Preference.OnPreferenceClickListener {
 	}
 
 	public final boolean onPreferenceClick(final Preference preference) {
-
+		
 		try {
-			mSelected = Integer.parseInt(SystemProperties
-					.get(Constants.PROP_PROCESSLIMIT));
-		} catch (NumberFormatException e) {
+			mSelected = ActivityManagerNative.getDefault().getProcessLimit();
+		} catch (RemoteException e) {
 			mSelected = -1;
 		}
 
@@ -37,24 +39,19 @@ final class BackProcessLimit implements Preference.OnPreferenceClickListener {
 						(mSelected + 1), new OnClickListener() {
 
 							public void onClick(DialogInterface arg0, int arg1) {
-
-								SystemProperties.set(
-										Constants.PROP_PROCESSLIMIT, ""
-												+ Integer.valueOf(arg1 - 1));
-
-								int processLimit;
-								try {
-									processLimit = Integer.valueOf(SystemProperties
-											.get(Constants.PROP_PROCESSLIMIT));
-								} catch (NumberFormatException e) {
-									processLimit = -1;
-								}
+								
+								mSelected = arg1 - 1;
 
 								try {
-									ActivityManagerNative.getDefault()
-											.setProcessLimit(processLimit);
+									ActivityManagerNative.getDefault().setProcessLimit(mSelected);
 								} catch (RemoteException e) {
+									Toast.makeText(mContext, "Error: Cannot set Process Limit", Toast.LENGTH_SHORT).show();
+									Log.e("Galaxy5Parts", e.toString());
+									arg0.dismiss();
+									return;
 								}
+								
+								SystemProperties.set(Constants.PROP_PROCESSLIMIT, "" + mSelected);
 
 								preference.setSummary(Constants.getProcessLimit(mResources)[arg1].toString());
 
