@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Galaxy5 Parts</string>
+    <string name="app_name">Galaxy5Parts</string>
     <string name="attenuation">Atenuação</string>
     <string name="attn_fm">Atenuação da rádio FM</string>
     <string name="attn_headset">Atenuação dos fones de ouvido</string>
@@ -34,8 +34,8 @@
     <string name="memory_man">Gestão de memória</string>
     <string name="report_bug">Reportar bug</string>
     <string name="sd_not_mounted">Cartão SD não montado</string>
+    <string name="swap">Swap</string>
     <string name="swap_dis">Swap não pode ser usado enquanto zRam estiver habilitado</string>
     <string name="swap_en">Usar partição de swap do cartão SD como memória virtual, permitindo que mais aplicativos continuem abertos</string>
-    <string name="swap">Swap</string>
 
 </resources>
