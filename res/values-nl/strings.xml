@@ -22,7 +22,7 @@
     <string name="device_settings">Instellingen van GT-I5500</string>
     <string name="disabled">Uitgeschakeld</string>
     <string name="extamp_filter">Extamp filter</string>
-    <string name="extamp_filter_sum">Gebruik Samsung's externe versterking geluidsfilter.</string>
+    <string name="extamp_filter_sum">Gebruik Samsung\'s externe versterking geluidsfilter.</string>
     <string name="fake_dt">Fake dual-touch</string>
     <string name="fake_dt_sum">Maak cirkelige gestures om fake dual-touch en pinch-to-zoom te activeren. (Herstarten vereist)</string>
     <string name="fm_radio">FM radio demping</string>
