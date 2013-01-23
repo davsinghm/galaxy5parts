@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cyanogenmod.settings.device" android:sharedUserId="android.uid.system" android:versionName="2.00" android:versionCode="200">
+    package="com.cyanogenmod.settings.device" android:sharedUserId="android.uid.system" android:versionName="2.01" android:versionCode="201">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     
