@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Galaxy5Parts</string>
+    <string name="attenuation">DuÅ¡enje</string>
+    <string name="attn_fm">FM radio duÅ¡enje</string>
+    <string name="attn_headset">SluÅ¡alke</string>
+    <string name="attn_headset_speaker">SluÅ¡alke &amp; ZvoÄnik</string>
+    <string name="attn_speaker">ZvoÄnik</string>
+    <string name="audio_settings_cat">Nastavitve zvoka</string>
+    <string name="back_process_limit">Omejitev procesov v ozadju</string>
+    <string name="bug_report_dialog">To bo odlagaliÅ¡Äe za sistemske dnevnike na SD kartici za namene poroÄanja hroÅ¡Äev. To zahetva korenski dostop in lahko traja nekaj Äasa.</string>
+    <string name="bug_report_failed">Ustvarjane poroÄanja hroÅ¡Äev ni bilo uspeÅ¡no. PriÅ¡lo je do napake</string>
+    <string name="bug_report_gen">Ustvari poroÄilo o hroÅ¡Äu</string>
+    <string name="bug_report_info">Odlagaj sistemske dnevnike na SD kartico za namene poroÄanja o napakah</string>
+    <string name="bug_report_root_req">Zajemanje dnevnikov neuspeÅ¡no. Prosimo omogoÄite korenski dostop za aplikacije in ADB v Nastavitvah -> MoÅ¾nosti za razvijalce</string>
+    <string name="bug_report_success">PoroÄilo o napakah ustvarjeno na</string>
+    <string name="cache_size">SD kartiÄni read-ahead predpomnilnik</string>
+    <string name="cancel">PrekliÄi</string>
+    <string name="continew">Nadaljuj</string>
+    <string name="current_setting">Trenutne nastavitve</string>
+    <string name="device_settings">GT-I5500 nastavitve</string>
+    <string name="disabled">OnemogoÄeno</string>
+    <string name="extamp_filter">Extamp filter</string>
+    <string name="extamp_filter_sum">Uporabi Samsung external amplifier audio filter</string>
+    <string name="fake_dt">LaÅ¾en dual-touch</string>
+    <string name="fake_dt_sum">Uporabite kroÅ¾ne geste, da aktivirate laÅ¾en dual-touch in pinch-to-zoom (zahteva ponovni zagon)</string>
+    <string name="fm_radio">FM radio duÅ¡enje</string>
+    <string name="generating_bug_report">Ustvarjanje poroÄila o napakah&#8230;</string>
+    <string name="global">Globalno duÅ¡enje</string>
+    <string name="intrfc">Vmesnik</string>
+    <string name="lmk">DinamiÄni LMK</string>
+    <string name="lmk_sum">DinamiÄno prilagodi lowmemorykiller jedrni gonilnik na osnovi Swap ali zRam dejavnosti</string>
+    <string name="memory_man">Upravljanje s pomnilnikom</string>
+    <string name="report_bug">PoroÄaj napako</string>
+    <string name="sd_not_mounted">SD kartica ni vpeta</string>
+    <string name="swap">Swap</string>
+    <string name="swap_dis">Swap ne more biti uporabljen medtem, ko je z zRam v uporabi</string>
+    <string name="swap_en">Uporabi SD kartico kot swap razdelek, da bi ohranili veÄ aplikacij odprtih</string>
+
+</resources>
