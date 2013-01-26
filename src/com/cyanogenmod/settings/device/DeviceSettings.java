@@ -132,7 +132,7 @@ public class DeviceSettings extends PreferenceActivity {
         } catch(NumberFormatException e) {
         	currentCacheSize = 0;
         }
-		cacheSize.setSummary(getText(R.string.current_setting) + ": " + Constants.getCacheSize(resources)[currentCacheSize]);
+		cacheSize.setSummary(Constants.getCacheSize(resources)[currentCacheSize]);
 		cacheSize.setEnabled(true);
 		cacheSize.setOnPreferenceClickListener(new CacheSize(this, resources));
 		memory.addPreference(cacheSize);

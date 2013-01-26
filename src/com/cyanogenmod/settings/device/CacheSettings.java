@@ -36,8 +36,7 @@ final class CacheSize implements Preference.OnPreferenceClickListener {
 
                         SystemProperties.set(Constants.PROP_CACHESIZE, ""
                                 + arg1);
-                        preference.setSummary(mContext
-                                .getText(R.string.current_setting) + ": " + Constants.getCacheSize(mResources)[arg1].toString());
+                        preference.setSummary(Constants.getCacheSize(mResources)[arg1].toString());
 
                         arg0.dismiss();
 
