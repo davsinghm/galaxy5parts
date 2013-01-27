@@ -32,7 +32,7 @@
     <string name="lmk">Динамички LMK</string>
     <string name="lmk_sum">Динамички подеси lowmemorykiller кернел драјвер заснован на swap-у или zRam активности</string>
     <string name="memory_man">Управљање меморијом</string>
-    <string name="report_bug">Извести грешку</string>
+    <string name="report_bug">Известити грешку</string>
     <string name="sd_not_mounted">SD картица није монтирана</string>
     <string name="swap">Swap</string>
     <string name="swap_dis">Swap не може бити коришћен док се користи zRam</string>
