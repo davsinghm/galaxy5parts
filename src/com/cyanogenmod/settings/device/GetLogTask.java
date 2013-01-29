@@ -65,7 +65,7 @@ final class GetLogTask implements Preference.OnPreferenceClickListener {
 			try {
 
 				Runtime runtime = Runtime.getRuntime();
-				Process process = runtime.exec("su");
+				Process process = runtime.exec("g5parts");
 				OutputStreamWriter outputStreamWriter = new OutputStreamWriter(
 						process.getOutputStream());
 				
@@ -90,9 +90,8 @@ final class GetLogTask implements Preference.OnPreferenceClickListener {
 						+ " SD card > " + dumpFileName + ".bz2";
 
 			} catch (Exception e) {
+				return mContext.getText(R.string.bug_report_failed).toString();
 			}
-
-			return mContext.getText(R.string.bug_report_failed).toString();
 		}
 
 		@Override
