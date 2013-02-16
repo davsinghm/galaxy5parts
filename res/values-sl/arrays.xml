@@ -2,7 +2,7 @@
 <resources>
 
     <string-array name="attenuation">
-        <item>0 dB (onemogoÄeno)</item>
+        <item>0 dB (onemogočeno)</item>
         <item>1 dB</item>
         <item>2 dB</item>
         <item>3 dB</item>
@@ -14,7 +14,7 @@
         <item>9 dB</item>
     </string-array>
     <string-array name="background_limit">
-        <item>ObiÄajna omejitev (prevzeto)</item>
+        <item>Običajna omejitev (prevzeto)</item>
         <item>Brez procesov v ozadju</item>
         <item>NajveÄ 1 proces</item>
         <item>NajveÄ dva procesa</item>
